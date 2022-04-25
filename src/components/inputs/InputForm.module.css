@@ -1,0 +1,106 @@
+.form{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    padding:50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* INPUT FIELDS */
+
+.eventField, 
+.timeField {
+    margin: 10px;
+    width:100%;
+}
+.timeField{
+    margin-bottom: 30px;
+}
+
+.eventField label,
+.timeField label{
+    font-size: 1rem;
+}
+
+.timeField label {
+    display:flex;
+}
+
+.timeField label p{
+    margin-left:1%;
+}
+
+.eventField input,
+.timeField input{
+    color: #000;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  height: 3rem;
+ width:100%;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+
+.eventField input::placeholder,
+.timeField input::placeholder {
+    color: #777;
+    transition: color 0.4s ease;
+  }
+
+  .eventField input:focus::placeholder,
+  .timeField input:focus::placeholder {
+    color: transparent;
+  }
+
+input:focus {
+    border: 1px solid var(--bg-color)
+  }
+
+  /* checkboxes */
+
+  .checkboxes{
+    margin-top:30px;
+    margin-bottom:5px;
+}
+
+.checkboxes label{
+    padding:5px;
+}
+
+/*button */
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: var(--bg-color);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: var(--hover);
+}
+
+.card{
+    margin: 5%;
+    width:50vw;
+}
+
+    

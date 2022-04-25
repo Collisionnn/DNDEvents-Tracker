@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;600&display=swap");
+
+/* Global Styles  */
+
+:root {
+  --bg-color: #fa8072;
+  --hover: #f65b4a;
+  --card-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+body,
+.root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.root {
+  display: flex;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.input-fields {
+  /* CHECK */
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  /* CHECK */
+  max-width: 70%;
+}
+.flex {
+  /* display: flex;
+  justify-content: space-evenly;
+  gap: 8rem;  */
+
+  /* CHECK */
+  display: grid;
+  grid-template-columns: 40% 56%;
+  align-items: center;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.btn {
+  max-width: 50%;
+}
+
+.next {
+  background-color: green;
+}
+
+.clear {
+  background-color: red;
+}
+
+@media screen and (max-width: 1040px) {
+  /* .flex {
+    display: flex;
+  } */
+}

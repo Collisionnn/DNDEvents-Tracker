@@ -1,0 +1,16 @@
+/*card styles */
+
+.card {
+    max-width: 100%;
+    background-color:  var(--card-color);
+    display:flex;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}   
+@media screen and  (max-width:1085px) {
+    
+    .card{
+        margin: 5% auto;
+        width:80vw;
+    }
+}

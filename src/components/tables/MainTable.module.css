@@ -1,0 +1,29 @@
+.allign {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 20px;
+  min-width: 500px;
+  box-shadow: none;
+}
+
+ul {
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-block-start: 0em;
+  margin-block-end: 0sem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+@media screen and (max-width:1078px) {
+
+  .allign{
+    margin:0;
+  }
+  
+}
